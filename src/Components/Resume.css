@@ -3,12 +3,13 @@
     border-top-color: #eee;
     border-bottom-color: #eee;
     display: block; */
+    font-family: 'Crimson Text', serif;
     position: relative;
     background: url('../FakeData/resume-bg.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     min-height: 100vh;
-    z-index: -1;
+    z-index: 1;
     /* opacity: .2; */
     /* background-color: #fdfdfd;
     border-top: 2px solid #f2f2f2;
@@ -23,4 +24,7 @@
     z-index: 1 !important;
     margin-top: 2px;
     opacity: .9;
+}
+.body-font{
+    font-size:medium;
 }

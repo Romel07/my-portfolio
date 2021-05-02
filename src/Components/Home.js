@@ -3,21 +3,16 @@ import { Link } from 'react-router-dom';
 import '../App.css'
 import './Home.css'
 import pdf from '../FakeData/resume.pdf'
-import { Component } from 'react';
-import { render } from 'react-dom';
 import Typed from 'react-typed';
-// import ReactPDF from '@react-pdf/react-pdf';
 
 const Home = () => {
     const home = {
         minHeight: '100vh',
-        backgroundColor: "DodgerBlue",
+        backgroundColor: "gray",
         position: 'relative',
         zIndex: '1',
         // background: "url('../FakeData/resume-bg.jpg')",
-
     }
-
     return (
         <div className='row home-main' style={home} className="App">
             <div className='col-xs-12 col-sm-12 '>
@@ -56,9 +51,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-
             </div>
-            {/* <h5 >Home Page</h5> */}
         </div>
     );
 };
