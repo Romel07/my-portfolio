@@ -1,0 +1,26 @@
+.header-wraper{
+    /* background-color: #fcfcfc;
+    border-top-color: #eee;
+    border-bottom-color: #eee;
+    display: block; */
+    position: relative;
+    background: url('../FakeData/resume-bg.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    z-index: -1;
+    /* opacity: .2; */
+    /* background-color: #fdfdfd;
+    border-top: 2px solid #f2f2f2;
+    border-bottom: 2px solid #f2f2f2;
+    padding: 65px 70px;
+    margin-right: -70px;
+    margin-left: -70px;
+    margin-bottom: 65px;
+    text-align: left; */
+}
+.progress-bar{
+    z-index: 1 !important;
+    margin-top: 2px;
+    opacity: .9;
+}
